@@ -1,0 +1,594 @@
+body {
+    min-width: 640;
+}
+
+.navbar-nav {
+  float: right !important;    
+}
+
+nav {
+    margin: 0px !important;
+}
+
+.jumbotron {
+    margin: 0px !important;  
+}
+
+.homestyle:hover {
+    color: white !important;
+}
+
+.container {
+    text-align: center;
+}
+
+.fa {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    transition: .5s ease;
+    position: relative;
+    top: 0px;
+    text-shadow: 2px 2px 2px black, 3px 3px 3px white, 0 0 0.9em white;
+}
+
+.but {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    transition: .5s ease;
+    position: relative;
+    top: 3px;
+}
+
+#intro {
+    height: 95vh;
+    background-image: url(image/Volkswagen.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;body {
+    min-width: 640;
+}
+
+.navbar-nav {
+  float: right !important;    
+}
+
+nav {
+    margin: 0px !important;
+}
+
+.jumbotron {
+    margin: 0px !important;  
+}
+
+.homestyle:hover {
+    color: white !important;
+}
+
+.container {
+    text-align: center;
+}
+
+.fa {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    transition: .5s ease;
+    position: relative;
+    top: 0px;
+    text-shadow: 2px 2px 2px black, 3px 3px 3px white, 0 0 0.9em white;
+}
+
+.but {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    font-weight: 700;
+    transition: .5s ease;
+    position: relative;
+    top: 3px;
+}
+
+#intro {
+    height: 95vh;
+    background-image: url(image/Volkswagen.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+
+#fleet {
+    font-size: 200;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    opacity: 0.7;
+    outline-style: none;
+    margin: 1px;
+}
+
+.span1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    margin: 1px;
+    color: white;
+    text-shadow: 2px 2px 2px black,0 0 0.2em black;
+}
+
+.span2 {
+    font-style:italic;
+    font-size: 22px;
+    font-family: monospace;
+    font-size-adjust: auto;
+    font-weight: bolder
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+
+#flota {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+}
+
+img {
+    transition: .5s ease;
+}
+
+.img-li {
+    display: inline-block !important;
+    margin: 20px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    width: 300px;
+    height: 225px;
+}
+
+.imgiveco {
+    background-color: black !important;
+}
+
+.imgkiared {
+    background-color: black !important;
+}
+
+.img{
+position:relative;
+}
+.topimg{
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    transition: opacity .6s ease-in-out;
+}
+.bottomimg{
+    opacity:1;
+    transition: opacity 1s ease-in-out;   
+}
+.topimg:hover{
+    opacity:1;
+}
+.bottomimg:hover{
+    opacity:0 !important;
+}
+
+.thumbnail {
+    filter: none;
+    background-color: black !important;
+}
+
+.cars {
+    display: block;
+    text-align: center;
+}
+
+.span3 {
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 47px;
+    font-weight: 700;
+    transition: .5s ease;
+    position: relative;
+    top: 10px;
+}
+
+.span4 {
+    font-size: 16px;
+}
+
+.download {
+    background-color: black;
+    color: white;
+}
+
+.download:hover {
+    background-color: white;
+    color: black;
+}
+
+#dostawa {
+    height: 900px;
+    background-image: url(image/Interior.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.placeholder {
+    height: 300px;
+    margin: 0;
+}
+
+.span5 {
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    text-shadow: 2px 2px black,0 0 0.2em black,0 0 0.2em black;   
+    margin: 0;
+}
+
+.footer {
+    position: relative;
+    background-color: black;
+    height: 300px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.kontakt {
+    margin-top: 20px;
+    display: block;
+}
+
+.numery {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 780px) {
+    .navbar-nav {
+        float:none !important;
+    }
+    #intro {
+        height: 320px;
+        background-image: url(image/volkswagenmobile.jpg);
+        background-attachment: local; 
+    }
+    
+    .top {
+        position: relative;
+        top: 24px;
+        line-height: 51px;    
+    }
+    
+    .span1 {
+        font-size: 40px;
+    }
+    .fleet {
+        width: 75px;
+        height: 15px;
+    }
+     .span2 {
+        color: white !important;
+    }
+    .span5holder {
+        line-height: 40px;
+    }
+    .span5 {
+        font-size: 17px;
+        font-weight: 900;
+        text-shadow: 1px 1px black !important;
+    }    
+    .img-li {
+        position: relative;
+        right: 18px;
+        font-size: 23px;
+        width: 245px;
+        height: 105px;
+        margin-top: 10px;
+        margin-bottom: 150px;
+    }
+    #dostawa {
+        height: 320px;
+        background-image: url(image/interiormobile.jpg);
+        background-attachment: local;
+        line-height: 50px;
+    }
+    .numery {
+        display: inline-block;
+        position: relative;
+        bottom: 30px;
+    }
+    .kontakt {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    }
+} 
+
+    background-repeat: no-repeat;
+}
+
+.top {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+
+#fleet {
+    font-size: 200;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    opacity: 0.7;
+    outline-style: none;
+    margin: 1px;
+}
+
+.span1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    margin: 1px;
+    color: white;
+    text-shadow: 2px 2px 2px black,0 0 0.2em black;
+}
+
+.span2 {
+    font-style:italic;
+    font-size: 22px;
+    font-family: monospace;
+    font-size-adjust: auto;
+    font-weight: bolder
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+
+#flota {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+}
+
+img {
+    transition: .5s ease;
+}
+
+.img-li {
+    display: inline-block !important;
+    margin: 20px;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    width: 300px;
+    height: 225px;
+}
+
+.imgiveco {
+    background-color: black !important;
+}
+
+.imgkiared {
+    background-color: black !important;
+}
+
+.img{
+position:relative;
+}
+.topimg{
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    transition: opacity .6s ease-in-out;
+}
+.bottomimg{
+    opacity:1;
+    transition: opacity 1s ease-in-out;   
+}
+.topimg:hover{
+    opacity:1;
+}
+.bottomimg:hover{
+    opacity:0 !important;
+}
+
+.thumbnail {
+    filter: none;
+    background-color: black !important;
+}
+
+.cars {
+    display: block;
+    text-align: center;
+}
+
+.span3 {
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 47px;
+    font-weight: 700;
+    transition: .5s ease;
+    position: relative;
+    top: 10px;
+}
+
+.span4 {
+    font-size: 16px;
+}
+
+.download {
+    background-color: black;
+    color: white;
+}
+
+.download:hover {
+    background-color: white;
+    color: black;
+}
+
+#dostawa {
+    height: 900px;
+    background-image: url(image/Interior.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.placeholder {
+    height: 300px;
+    margin: 0;
+}
+
+.span5 {
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    font-size: 40px;
+    text-shadow: 2px 2px black,0 0 0.2em black,0 0 0.2em black;   
+    margin: 0;
+}
+
+.footer {
+    position: relative;
+    background-color: black;
+    height: 300px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.kontakt {
+    margin-top: 20px;
+    display: block;
+}
+
+.numery {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 780px) {
+    .navbar-nav {
+        float:none !important;
+    }
+    #intro {
+        height: 320px;
+        background-image: url(image/volkswagenmobile.jpg);
+        background-attachment: local; 
+    }
+    
+    .top {
+        position: relative;
+        top: 24px;
+        line-height: 51px;    
+    }
+    
+    .span1 {
+        font-size: 40px;
+    }
+    .fleet {
+        width: 75px;
+        height: 15px;
+    }
+     .span2 {
+        color: white !important;
+    }
+    .span5holder {
+        line-height: 40px;
+    }
+    .span5 {
+        font-size: 17px;
+        font-weight: 900;
+        text-shadow: 1px 1px black !important;
+    }    
+    .img-li {
+        position: relative;
+        right: 18px;
+        font-size: 23px;
+        width: 245px;
+        height: 105px;
+        margin-top: 10px;
+        margin-bottom: 150px;
+    }
+    #dostawa {
+        height: 320px;
+        background-image: url(image/interiormobile.jpg);
+        background-attachment: local;
+        line-height: 50px;
+    }
+    .numery {
+        display: inline-block;
+        position: relative;
+        bottom: 30px;
+    }
+    .kontakt {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    }
+} 
